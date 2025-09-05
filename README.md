@@ -12,5 +12,9 @@ git pull
 
 git remote -v
 
+ブランチ作るときはvs codeの左下から
+fromがないやつはmainからのbranch
+fromがあるやつは親指定できる
+commitするときに一緒に反映できそう
 
 ```

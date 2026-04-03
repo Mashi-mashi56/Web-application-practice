@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 1.4rem;
+}
+
+h1 {
+  border: solid red 2px;
+  width: 50%;
+  font-size: 5em;
+}
+
+.layer1 {
+  font-size: 2rem;
+}
+
+.layer2 {
+  font-size: 2rem;
+}
+
+p {
+  border: dashed blue;
+}
+
+header {
+  width: 50%;
+  border: solid black 20px;
+
+  margin: 50px;
+  padding: 50px;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+.container {
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+
+  margin: 1.5rem 2rem 3rem 1rem;
+  /*top right bottom left*/
+
+  margin: 1.5rem 2rem;
+}

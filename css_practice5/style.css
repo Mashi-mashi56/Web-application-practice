@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 200vh;
+}
+
+.outer-container {
+  border: 3px dashed black;
+  width: 75vw;
+  height: 85vh;
+  margin: 40px auto;
+  /*width は100%みたいにするときと、100vhみたいにvhで表すときがある*/
+}
+
+.inner-container {
+  border: 2px dashed blue;
+  width: 40vh;
+  height: 60vh;
+  margin: 100px auto;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  color: white;
+}
+
+.absolute {
+  background-color: blue;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.relative {
+  background-color: red;
+  position: relative;
+  bottom: 100px;
+  right: 0;
+  right: 10px;
+  top: 20px;
+  z-index: 1;
+  /*z-indexは重なったときにどれが上にくるか設定できるっぽい*/
+}
+
+.fixed {
+  background-color: green;
+  position: fixed;
+  top: 50px;
+  /*In fixed, the box does not move when we scrolling the screen.
+  Also it does not follow the parent.*/
+}
+
+.sticky {
+  background-color: black;
+  top: 10px;
+  position: sticky;
+  z-index: 2;
+}
+
+/*Q. Positionのdefaultは？
+A. Nothing*/

@@ -1,0 +1,42 @@
+* {
+  font-family: monospace;
+}
+
+p {
+  font-size: 22px;
+  color: green;
+}
+
+body {
+  font-size: 22px;
+}
+
+p {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+#purple {
+  color: green;
+}
+
+h1,
+h2 {
+  color: aqua;
+}
+
+p div {
+  color: blueviolet;
+}
+
+#highlight {
+  background-color: #125f80;
+}
+
+.highlight {
+  background-color: gold;
+  text-transform: uppercase;
+}
